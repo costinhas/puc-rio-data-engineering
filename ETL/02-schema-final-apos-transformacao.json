@@ -1,0 +1,844 @@
+[
+    {
+        "name": "etlSchemaBody",
+        "schema": {
+            "type": "record",
+            "name": "etlSchemaBody",
+            "fields": [
+                {
+                    "name": "ID_RESPONDENTE",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "MORA_NO_BRASIL",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "NIVEL_ENSINO",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "AREA_FORMACAO",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "CARGO_ATUAL_COMO_GESTOR",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "CARGO_ATUAL_COMO_NAO_GESTOR",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "NIVEL_CARGO_ATUAL",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FAIXA_SALARIAL",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "TEMPO_EXPERIENCIA_DADOS",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "TEMPO_EXPERIENCIA_TI",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "SATISFACAO_EMPRESA_ATUAL",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FONTES_DADOS_MAIS_USADA",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FONTE_DADOS_RELACIONAIS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FONTE_DADOS_NOSQL",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FONTE_DADOS_IMAGENS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FONTE_DADOS_TEXTOS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FONTE_DADOS_VIDEOS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FONTE_DADOS_AUDIOS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FONTE_DADOS_PLANILHAS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FONTE_DADOS_GEOREFERENCIADOS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "LINGUAGENS_UTILIZADAS_TRABALHO",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SQL",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_R",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_PYTHON",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_C_CPP_CSHARP",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_DOT_NET",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_JAVA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_JULIA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SAS_STATA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_VISUAL_BASIC_VBA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SCALA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_MATLAB",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_PHP",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_JAVASCRIPT",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "NAO_USA_LINGUAGEM",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "LINGUAGEM_MAIS_UTILIZADA",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "LINGUAGEM_PREFERIDA",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "BANCO_DADOS_UTILIZADO_TRABALHO",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_MYSQL",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_ORACLE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SQL_SERVER",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_AMAZON_AURORA_RDS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_DYNAMODB",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_COACHDB",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_CASSANDRA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_MONGODB",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_MARIADB",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_DATOMIC",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_S3",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_POSTGRESQL",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_ELASTICSEARCH",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_DB2",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_MICROSOFT_ACCESS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SQLITE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SYBASE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_FIREBASE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_VERTICA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_REDIS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_NEO4J",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_GOOGLE_BIGQUERY",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_GOOGLE_FIRESTORE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_AMAZON_REDSHIFT",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_AMAZON_ATHENA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SNOWFLAKE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_DATABRICKS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_HBASE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_PRESTO",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SPLUNK",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SAP_HANA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_HIVE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_FIREBIRD",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "CLOUD_UTILIZADA_TRABALHO",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "CLOUD_PREFERIDA",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_AZURE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_AWS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_GOOGLE_CLOUD",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "MOTIVO_INSATISFACAO",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "INSATISFACAO_FALTA_OPORTUNIDADE_CRESCIMENTO",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "INSATISFACAO_SALARIO_BAIXO",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "INSATISFACAO_RELACAO_GESTOR",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "INSATISFACAO_DESEJO_OUTRA_AREA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "INSATISFACAO_POUCOS_BENEFICIOS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "INSATISFACAO_CLIMA_TRABALHO",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "INSATISFACAO_FALTA_MATURIDADE_ANALITICA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "NUM_PESSOAS_TRABALHAM_DADOS",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEIS_TIME_DADOS_EMPRESA",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEL_ANALYTICS_ENGINEER",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEL_DATA_ENGINEER",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEL_DATA_ANALYST",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEL_DATA_SCIENTIST",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEL_DBA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEL_BI_ANALYST",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEL_DATA_ARCHITECT",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEL_DATA_PRODUCT_MANAGER",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "PAPEL_BUSINESS_ANALYST",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "FERRAMENTA_VISUALIZACAO_UTILIZADA",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_POWERBI",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_QLIK_VIEW_SENSE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_TABLEAU",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_METABASE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SUPERSET",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_REDASH",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_MICROSTRATEGY",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_IBM_ANALYTICS_COGNOS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SAP_BO",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_ORACLE_BUSINESS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_AMAZON_QUICKSIGHT",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SALESFORCE_EINSTEIN",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_MODE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_ALTERYX",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_BIRST",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_LOOKER",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_GOOGLE_DATA_STUDIO",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SAS_VISUAL_ANALYTICS",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_GRAFANA",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_SPOTFIRE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_PENTAHO",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "USA_EXCEL_PLANILHA_GOOGLE",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                {
+                    "name": "NAO_USA_FERRAMENTA_VISUALIZACAO",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                }
+            ]
+        }
+    }
+]
